@@ -1,0 +1,13 @@
+name: Simple workflow file
+on:
+  push:
+    branches:
+      main
+jobs:
+  echo_job:
+    runs-on: ubuntu:latest
+
+    steps:
+    - name: Simple workflow
+      run: echo "hello, this first workflow"
+        
