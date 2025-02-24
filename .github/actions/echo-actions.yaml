@@ -1,0 +1,8 @@
+name: "Echo Message"
+description: "A simple composite action to echo a message"
+runs:
+  using: "composite"
+  steps:
+    - name: Echo Message
+      run: echo "Hello from Composite Action!"
+      shell: bash
